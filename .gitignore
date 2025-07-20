@@ -142,12 +142,18 @@ datasets/
 *.avi
 *.mov
 *.mkv
+# Image files (except documentation screenshots)
 *.jpg
 *.jpeg
 *.png
 *.gif
 *.bmp
 *.tiff
+
+# Allow documentation screenshots
+!screenshot/*.png
+!screenshot/*.jpg
+!screenshot/*.jpeg
 
 # Streamlit
 .streamlit/
